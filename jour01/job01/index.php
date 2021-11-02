@@ -20,8 +20,8 @@ $mybool = true;
 
 echo $mybool;
 
-$mybool = false;
+$mybool = false; //affiche 1
 
-echo $mybool;
+echo $mybool; // affiche rien
 
 ?>
