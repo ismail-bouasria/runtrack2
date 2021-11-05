@@ -2,13 +2,17 @@
 
 $str = "Certaines choses changent, et d'autres
 ne changeront jamais.";
+$sav=$str[0];
 
-// calcule de la longueur de chaine de caractère
-for ($i=0; isset($str[$i]); $i++);
-$lenght = $i; // définir  la valeur de la longeur de chaine de caractère grâce à $i.
+for ($i=0;isset($str[$i]); $i++){
 
-for ($i= 0;$i ($lenght-2); $i++) { 
-    echo $str[$i] = $str[$i+1];
+if (isset($str[$i+1])) {
+    
+$str[$i] = $str[$i+1];
+echo $str[$i];
 }
-
+else {
+    echo $sav ;
+}
+}
 ?>
