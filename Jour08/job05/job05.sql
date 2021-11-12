@@ -1,0 +1,1 @@
+nom,prenom,naissance FROM etudiants WHERE sexe='feminin'
