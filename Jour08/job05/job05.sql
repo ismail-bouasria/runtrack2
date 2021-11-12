@@ -1,1 +1,1 @@
-nom,prenom,naissance FROM etudiants WHERE sexe='feminin'
+nom,prenom,naissance FROM etudiants WHERE sexe='femme'
